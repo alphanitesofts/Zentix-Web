@@ -104,7 +104,7 @@ const Contact = () => {
                 <div className="position-relative h-100">
                   <img
                     className="position-absolute img-fluid w-100 h-100"
-                    src="img/feature.jpg"
+                    src="img/About.jpg"
                     style={{ objectFit: "cover" }}
                     alt
                   />

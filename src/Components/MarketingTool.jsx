@@ -12,10 +12,10 @@ const MarketingTool = () => {
         </div>
       </div>
 
-      <div className="overflow-hidden px-lg-0" id="about">
+      <div className=" px-lg-0" id="about">
         <div className=" px-lg-0">
           <div
-            className="card  mt-5 container"
+            className="card card-shadows  mt-5 container"
             style={{ borderRadius: "10px" }}
           >
             <div className="card-body p-5">
@@ -90,7 +90,7 @@ const MarketingTool = () => {
           </div>
 
           <div
-            className="card  mt-5 container"
+            className="card  card-shadows mt-5 container"
             style={{ borderRadius: "10px" }}
           >
             <div className="card-body p-5">

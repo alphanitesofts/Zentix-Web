@@ -144,7 +144,7 @@ const FAQ = () => {
           <div className="overflow-hidden" id="about">
             <div className="px-lg-0">
               <div
-                className="card container"
+                className="card card-shadows container"
                 style={{ borderRadius: "10px", marginTop: "100px" }}
               >
                 <div className="card-body p-5">
@@ -186,7 +186,7 @@ const FAQ = () => {
               </div>
 
               <div
-                className="card container"
+                className="card card-shadows container"
                 style={{ borderRadius: "10px", marginTop: "100px" }}
               >
                 <div className="card-body p-5">

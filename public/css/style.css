@@ -320,6 +320,7 @@
     border-radius: 0 35px 35px 0;
     transition: .5s;
     z-index: 2;
+    cursor: pointer;
 }
 
 .team-item div.btn-slide span a i {

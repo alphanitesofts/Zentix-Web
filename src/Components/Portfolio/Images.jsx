@@ -21,7 +21,7 @@ const Images = () => {
                   className="col-lg-3 col-md-6 wow fadeInUp"
                   data-wow-delay="0.3s"
                 >
-                  <div className="team-item p-4">
+                  <div className="team-item p-4 bg-white">
                     <div className="overflow-hidden mb-4">
                       <img className="img-fluid" src="img/man.png" alt />
                     </div>
@@ -50,7 +50,7 @@ const Images = () => {
                   className="col-lg-3 col-md-6 wow fadeInUp"
                   data-wow-delay="0.3s"
                 >
-                  <div className="team-item p-4">
+                  <div className="team-item p-4 bg-white">
                     <div className="overflow-hidden mb-4">
                       <img className="img-fluid" src="img/man.png" alt />
                     </div>

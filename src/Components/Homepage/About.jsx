@@ -4,10 +4,10 @@ const About = () => {
   return (
     <div>
       {/* About Start */}
-      <div className="overflow-hidden px-lg-0" id="about">
+      <div className="px-lg-0" id="about">
         <div className="  about px-lg-0">
-          <div className="card container" style={{ borderRadius: "10px" }}>
-            <div className="card-body p-5">
+          <div className="card card-shadows container" style={{ borderRadius: "10px" }}>
+            <div className="card-body  p-5">
               <div className="row g-5 mx-lg-0">
                 {/* <div
                   className="col-lg-6 ps-lg-0 wow fadeInLeft"

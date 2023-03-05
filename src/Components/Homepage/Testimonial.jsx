@@ -47,7 +47,7 @@ const Testimonial = () => {
       <div className="py-5 wow fadeInUp" data-wow-delay="0.1s" id="testimonial">
         <div className="row">
           <div className="col-lg-12">
-            <div className="card container" style={{ borderRadius: "10px" }}>
+            <div className="card card-shadows container" style={{ borderRadius: "10px" }}>
               <div className="card-body p-5">
                 <div className="text-center">
                   <h1 className="text-secondary">Our Happy Clients</h1>

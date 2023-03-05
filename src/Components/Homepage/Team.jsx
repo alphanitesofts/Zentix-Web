@@ -5,8 +5,8 @@ const Team = () => {
     <div>
       {/* Team Start */}
       <div className="py-5">
-        <div className="overflow-hidden" id="team">
-          <div className="card container" style={{ borderRadius: "10px" }}>
+        <div className="" id="team">
+          <div className="card card-shadows container" style={{ borderRadius: "10px" }}>
             <div className="card-body py-5">
               <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
                 <h1 className="text-secondary">Latest News</h1>

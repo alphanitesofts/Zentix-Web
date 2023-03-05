@@ -217,3 +217,44 @@ body {
   font-weight: 300;
 }
 
+
+/* shop */
+
+/* categories */
+.icon-button {
+  width: 46px;
+  height: 46px;
+  line-height: 46px;
+  background-color: #fff;
+  border-radius: 50%;
+  font-size: 18px;
+  position: absolute;
+  left: 50%;
+  bottom: -23px;
+  transform: translateX(-23px);
+  transition: all 0.3s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.card:hover .icon-button {
+  background-color: red;
+  color: #fff;
+  visibility: visible;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.categories-card {
+  border: 1px solid #6c757d;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-shadows{
+  box-shadow: 1px -6px 30px 1px rgba(215,215,215,1);
+-webkit-box-shadow: 1px -6px 30px 1px rgba(215,215,215,1);
+-moz-box-shadow: 1px -6px 30px 1px rgba(215,215,215,1);
+}
