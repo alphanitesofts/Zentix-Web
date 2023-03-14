@@ -22,6 +22,8 @@ import Contact from "./Components/Contact";
 import Shop from "./Components/Shop";
 import BuyItem from "./Components/BuyItem";
 import Form from "./Components/Form";
+import Login from "./Components/Auth/Login";
+import Register from "./Components/Auth/Register";
 
 function App() {
   return (
@@ -38,6 +40,9 @@ function App() {
           <Route path="/shop" element={<Shop />} />
           <Route path="/buy-item" element={<BuyItem />} />
           <Route path="/buy-form" element={<Form />} />
+
+          <Route path="/login" element={<Login />} />
+          <Route path="/Register" element={<Register />} />
         </Routes>
         <Footer />
       </Router>

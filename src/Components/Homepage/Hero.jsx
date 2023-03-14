@@ -33,15 +33,14 @@ const Hero = () => {
                           <a
                             href="#facts"
                             className="btn btn-outline-secondary py-md-3 px-md-5 me-3 animated slideInLeft"
-                            style={{borderRadius:'10px'}}
                           >
-                            Read More
+                            Login
                           </a>
                           <a
                             href="#facts"
                             className="btn btn-outline-secondary py-md-3 px-md-5 me-3 animated slideInLeft"
                           >
-                            Read More
+                            Register
                           </a>
                         </div>
                       </div>

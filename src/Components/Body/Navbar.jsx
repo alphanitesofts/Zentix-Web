@@ -49,9 +49,9 @@ const Navbar = () => {
                 More
               </a>
               <div className="dropdown-menu fade-up m-0">
-                <a href="#" className="dropdown-item">
+                <Link to='/login'className="dropdown-item">
                   Login
-                </a>
+                </Link>
                 <a href="#" className="dropdown-item">
                   Register
                 </a>
