@@ -1,16 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
+  const [index , setindex] = useState(0)
+
   return (
     <div>
       {/* Navbar Start */}
       <nav className="navbar navbar-expand-lg bg-white navbar-light shadow border-2 border-bottom border-primary fixed-top p-0">
-        <a
-          href="#"
-          className="navbar-brand  d-flex align-items-center px-4 ms-5 px-lg-5"
+        <a onClick={() => setindex(0)}
+          className="navbar-brand d-flex align-items-center px-4 ms-5 px-lg-5"
         >
-          <h2 className="mb-2 text-primary">Zantex</h2>
+          <h2 className="mb-2 text-primary">Zantix</h2>
         </a>
         <button
           type="button"
@@ -22,12 +23,14 @@ const Navbar = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarCollapse">
           <div className="navbar-nav ms-auto p-4 p-lg-0">
-            <Link to="/" className="nav-item nav-link active">
+           <a onClick={() => setindex(0)} className={index === 0 ? 'nav-item nav-link' : 'nav-item nav-link'}> <Link to="/">
               HOME
             </Link>
-            <Link to="/shop" className="nav-item nav-link">
+            </a>
+            <a onClick={() => setindex(1)} className={index === 1 ? 'nav-item nav-link' : 'nav-item nav-link'}> <Link to="/shop">
               SHOP
             </Link>
+            </a>
             <Link to="/About" className="nav-item nav-link">
               ABOUT
             </Link>
@@ -41,20 +44,16 @@ const Navbar = () => {
               Contact
             </Link>
             <div style={{ marginRight: "90px" }} className="nav-item dropdown">
-              <a
-                href="#"
-                className="nav-link dropdown-toggle"
-                data-bs-toggle="dropdown"
-              >
+              <a className="nav-link dropdown-toggle" data-bs-toggle="dropdown">
                 More
               </a>
               <div className="dropdown-menu fade-up m-0">
-                <Link to='/login'className="dropdown-item">
+                <Link to="/login" className="dropdown-item">
                   Login
                 </Link>
-                <a href="#" className="dropdown-item">
+                <Link to="/Register" className="dropdown-item">
                   Register
-                </a>
+                </Link>
               </div>
             </div>
           </div>

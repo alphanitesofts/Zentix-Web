@@ -61,11 +61,11 @@ const Testimonial = () => {
                   data-wow-delay="0.1s"
                 >
                   <Slider {...settings}>
-                    <div>
-                      <div className="card container m-1 message-review">
-                        <div className="testimonial-item my-5">
-                          <i className="fa fa-quote-left fa-3x text-primary position-absolute top-0 mt-5 me-4" />
-                          <p className="mb-0" style={{ lineHeight: "2" }}>
+                    <div className="message-review">
+                      <div className="card container reviews-client ">
+                        <div className="testimonial-item">
+                          <i className="fa fa-quote-left fa-3x text-primary top-0 mt-4 me-4" />
+                          <p className="mb-4 mt-2" style={{ lineHeight: "2" }}>
                             Zantex Goes above the Lorem ipsum dolor sit amet
                             consectetur adipisicing elit. Veritatis maiores iure
                             ab impedit voluptatibus perspiciatis earum tempore
@@ -77,7 +77,7 @@ const Testimonial = () => {
                           </p>
                         </div>
                       </div>
-                      <div className="d-flex align-items-end mb-4">
+                      <div className="d-flex align-items-end mt-3 mb-4">
                         <img
                           className="img-fluid flex-shrink-0"
                           src="img/testimonial-1.jpg"
@@ -90,11 +90,11 @@ const Testimonial = () => {
                       </div>
                     </div>
 
-                    <div>
-                      <div className="card container m-1 message-review">
-                        <div className="testimonial-item my-5">
-                          <i className="fa fa-quote-left fa-3x text-primary position-absolute top-0 mt-5 me-4" />
-                          <p className="mb-0" style={{ lineHeight: "2" }}>
+                    <div className="message-review">
+                      <div className="card container reviews-client ">
+                        <div className="testimonial-item">
+                          <i className="fa fa-quote-left fa-3x text-primary top-0 mt-4 me-4" />
+                          <p className="mb-4 mt-2" style={{ lineHeight: "2" }}>
                             Zantex Goes above the Lorem ipsum dolor sit amet
                             consectetur adipisicing elit. Veritatis maiores iure
                             ab impedit voluptatibus perspiciatis earum tempore
@@ -106,7 +106,7 @@ const Testimonial = () => {
                           </p>
                         </div>
                       </div>
-                      <div className="d-flex align-items-end mb-4">
+                      <div className="d-flex align-items-end mt-3 mb-4">
                         <img
                           className="img-fluid flex-shrink-0"
                           src="img/testimonial-1.jpg"
@@ -119,11 +119,11 @@ const Testimonial = () => {
                       </div>
                     </div>
 
-                    <div>
-                      <div className="card container m-1 message-review">
-                        <div className="testimonial-item my-5">
-                          <i className="fa fa-quote-left fa-3x text-primary position-absolute top-0 mt-5 me-4" />
-                          <p className="mb-0" style={{ lineHeight: "2" }}>
+                    <div className="message-review">
+                      <div className="card container reviews-client ">
+                        <div className="testimonial-item">
+                          <i className="fa fa-quote-left fa-3x text-primary top-0 mt-4 me-4" />
+                          <p className="mb-4 mt-2" style={{ lineHeight: "2" }}>
                             Zantex Goes above the Lorem ipsum dolor sit amet
                             consectetur adipisicing elit. Veritatis maiores iure
                             ab impedit voluptatibus perspiciatis earum tempore
@@ -135,7 +135,7 @@ const Testimonial = () => {
                           </p>
                         </div>
                       </div>
-                      <div className="d-flex align-items-end mb-4 ">
+                      <div className="d-flex align-items-end mt-3 mb-4">
                         <img
                           className="img-fluid flex-shrink-0"
                           src="img/testimonial-1.jpg"

@@ -1,35 +1,49 @@
-import React from "react";
+import React, { useState } from "react";
+import { Modal } from "pretty-modal";
 
 const About = () => {
+  //modal for youtube video
+
+  const [show, shouldShow] = useState(false);
+
   return (
     <div>
-      {/* About Start */}
-      <div className="px-lg-0" id="about">
-        <div className="  about px-lg-0">
-          <div className="card card-shadows container" style={{ borderRadius: "10px" }}>
-            <div className="card-body  p-5">
-              <div className="row g-5 mx-lg-0">
-                {/* <div
-                  className="col-lg-6 ps-lg-0 wow fadeInLeft"
-                  data-wow-delay="0.1s"
-                  style={{ minHeight: 400 }}
-                >
-                  <div className="position-relative h-100">
-                    <img
-                      className="position-absolute img-fluid w-100 h-100"
-                      src="img/about.jpg"
-                      style={{ objectFit: "cover" }}
-                      alt
-                    />
-                  </div>
-                </div> */}
+      <Modal
+        onClose={() => {
+          shouldShow(false);
+        }}
+        open={show}
+      >
+        <iframe
+          className="iframe-responsive"
+          src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+          title="YouTube video player"
+          allow="accelerometer;mute; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowFullScreen
+        />
+      </Modal>
 
+      <div className="px-lg-0 " id="about">
+        <div className="  about px-lg-0">
+          <div
+            className="card card-shadows container"
+            style={{ borderRadius: "10px" }}
+          >
+            <div className="card-body  p-5">
+              <div className="row flex-wrap-reverse g-5 mx-lg-0">
                 <div
                   className="col-lg-6 col-md-12 wow  fadeInLeft"
                   data-wow-delay="0.1s"
                 >
                   <div className="abt-bg">
-                    <a href="#" className="bdr-ripple-ani-btn pink two"><i className="fa fa-play" /></a>
+                    <a
+                      onClick={() => {
+                        shouldShow(true);
+                      }}
+                      className="bdr-ripple-ani-btn pink two"
+                    >
+                      <i className="fa fa-play" />
+                    </a>
                   </div>
                 </div>
 

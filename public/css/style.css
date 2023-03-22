@@ -90,8 +90,8 @@
     outline: none;
 }
 
-.navbar-light .navbar-nav .nav-link:hover,
-.navbar-light .navbar-nav .nav-link.active {
+.nav-link:hover,
+.navbar-light .navbar-nav .nav-link .active {
     color: var(--primary);
 }
 

@@ -1,8 +1,13 @@
+:root {
+  --pretty-modal-modal-container-padding: -250px;
+}
+
 @media screen and (max-width: 880px) {
   .heroImg {
     height: 600px;
   }
 }
+
 
 html,
 body {
@@ -127,13 +132,14 @@ body {
 
 .message-review {
   border-radius: 10px 10px 10px 0;
-  background: #efefef;
+  /* background-color: #efefef; */
   font-size: 15px;
-  padding: 40px;
+  padding: 10px;
   margin-bottom: 35px;
   position: relative;
-  box-shadow: 0px 0px 21px 9px rgb(0 0 0 / 5%);
-  -webkit-border-radius: 10px 10px 10px 0;
+  /* box-shadow: 0px 0px 21px 9px rgb(0 0 0 / 5%);
+  -webkit-border-radius: 10px 10px 10px 0; */
+  margin: 0px;
 }
 
 
@@ -161,6 +167,7 @@ body {
   cursor: pointer;
   font-size: 18px;
   z-index: 5;
+  margin-top: -1px !important;
 }
 
 /* team */
@@ -294,4 +301,23 @@ border-right: none;
   justify-content: end;
   cursor: pointer;
   font-size: 18px;
+}
+
+.iframe-responsive{
+  height: 350px;
+  width: 650px;
+}
+
+@media screen and (max-width: 780px) {
+  .iframe-responsive{
+    height: 200px;
+  width: 350px;
+}}
+
+.reviews-client{
+  background: #efefef;
+  border-radius: 10px 10px 10px 0px;
+  box-shadow: 0px 0px 21px 9px rgba(0, 0, 0, 0.05);
+  -webkit-border-radius: 10px 10px 10px 0;
+  -moz-border-radius: 10px 10px 10px 0;
 }

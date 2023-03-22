@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -9,7 +10,7 @@ const Hero = () => {
         data-bs-ride="carousel"
       >
         <div className="carousel-inner">
-          <div className="carousel-item active" data-bs-interval={10000}>
+          <div className="carousel-item active" data-bs-interval={5000}>
             <div className="container-fluid p-0 pb-5">
               <div className=" header-carousel position-relative mb-5">
                 <div className=" position-relative">
@@ -30,18 +31,18 @@ const Hero = () => {
                           <p className="fs-5 fw-medium text-white mb-4 pb-2">
                             Groceries
                           </p>
-                          <a
-                            href="#facts"
+                          <Link
+                            to="/Login"
                             className="btn btn-outline-secondary py-md-3 px-md-5 me-3 animated slideInLeft"
                           >
                             Login
-                          </a>
-                          <a
-                            href="#facts"
+                          </Link>
+                          <Link
+                            to="/Register"
                             className="btn btn-outline-secondary py-md-3 px-md-5 me-3 animated slideInLeft"
                           >
                             Register
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -50,8 +51,8 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          <div className="carousel-item" data-bs-interval={2000}>
-          <div className="container-fluid p-0 pb-5">
+          <div className="carousel-item" data-bs-interval={5000}>
+            <div className="container-fluid p-0 pb-5">
               <div className=" header-carousel position-relative mb-5">
                 <div className=" position-relative">
                   <img className="img-fluid heroImg" src="img/truck2.jpg" alt />
@@ -71,19 +72,18 @@ const Hero = () => {
                           <p className="fs-5 fw-medium text-white mb-4 pb-2">
                             Groceries
                           </p>
-                          <a
-                            href="#facts"
-                            className="btn btn-outline-secondary py-md-3 px-md-5 me-3 animated slideInLeft"
-                            style={{borderRadius:'10px'}}
-                          >
-                            Read More
-                          </a>
-                          <a
-                            href="#facts"
+                          <Link
+                            to="/Login"
                             className="btn btn-outline-secondary py-md-3 px-md-5 me-3 animated slideInLeft"
                           >
-                            Read More
-                          </a>
+                            Login
+                          </Link>
+                          <Link
+                            to="/Register"
+                            className="btn btn-outline-secondary py-md-3 px-md-5 me-3 animated slideInLeft"
+                          >
+                            Register
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -92,8 +92,8 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          <div className="carousel-item">
-          <div className="container-fluid p-0 pb-5">
+          <div className="carousel-item" data-bs-interval={5000}>
+            <div className="container-fluid p-0 pb-5">
               <div className=" header-carousel position-relative mb-5">
                 <div className=" position-relative">
                   <img className="img-fluid heroImg" src="img/truck2.jpg" alt />
@@ -113,19 +113,18 @@ const Hero = () => {
                           <p className="fs-5 fw-medium text-white mb-4 pb-2">
                             Groceries
                           </p>
-                          <a
-                            href="#facts"
-                            className="btn btn-outline-secondary py-md-3 px-md-5 me-3 animated slideInLeft"
-                            style={{borderRadius:'10px'}}
-                          >
-                            Read More
-                          </a>
-                          <a
-                            href="#facts"
+                          <Link
+                            to="/Login"
                             className="btn btn-outline-secondary py-md-3 px-md-5 me-3 animated slideInLeft"
                           >
-                            Read More
-                          </a>
+                            Login
+                          </Link>
+                          <Link
+                            to="/Register"
+                            className="btn btn-outline-secondary py-md-3 px-md-5 me-3 animated slideInLeft"
+                          >
+                            Register
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -144,8 +143,8 @@ const Hero = () => {
         >
           <div className="chero">
             <i
-              className="fa-solid fa-chevron-left mt-3"
-              style={{ color: "red" }}
+              className="fa-solid fa-chevron-left"
+              style={{ color: "red", marginTop: "23px", fontSize: "15px" }}
             />
           </div>
         </button>
@@ -158,8 +157,8 @@ const Hero = () => {
         >
           <div className="cheros">
             <i
-              className="fa-solid fa-chevron-right mt-3"
-              style={{ color: "red" }}
+              className="fa-solid fa-chevron-right"
+              style={{ color: "red", marginTop: "23px", fontSize: "15px" }}
             />
           </div>
         </button>
