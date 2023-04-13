@@ -1,8 +1,10 @@
 import React from "react";
+import coins from '../SourceFiles/coins.webp'
+import commission from '../SourceFiles/commission.png'
 
 const FAQ = () => {
   return (
-    <div style={{background:'#fff'}}>
+    <div style={{ background: '#fff' }}>
       <div className="pageHeading">
         <div className="text-center" style={{ paddingTop: "170px" }}>
           <h1 className="text-white" style={{ fontSize: "60px" }}>
@@ -38,7 +40,7 @@ const FAQ = () => {
                     aria-expanded="true"
                     aria-controls="collapseOne"
                   >
-                    I haven't received my order
+                    I Have Not Received My Withdrawal
                   </button>
                 </h2>
                 <div
@@ -48,11 +50,7 @@ const FAQ = () => {
                   data-bs-parent="#accordionExample"
                 >
                   <div className="accordion-body">
-                    The processing time for your withdrawal will vary depending
-                    on your payment method. You can view further information on
-                    withdrawal clearance times by visiting our Payment Method
-                    page. If you are unable to locate your withdrawal after the
-                    processing time has passed, please Contact Us.
+                    The processing time for your withdrawal will vary depending on your payment method. You can view further information on withdrawal clearance times by visiting our Payment Method page. If you are unable to locate your withdrawal after the processing time has passed, please Contact Us.
                   </div>
                 </div>
               </div>
@@ -74,7 +72,7 @@ const FAQ = () => {
                     aria-expanded="false"
                     aria-controls="collapseTwo"
                   >
-                    How to buy an item
+                    How To Making A Withdrawal?
                   </button>
                 </h2>
                 <div
@@ -84,17 +82,7 @@ const FAQ = () => {
                   data-bs-parent="#accordionExample"
                 >
                   <div className="accordion-body">
-                    You can make a withdrawal from the Withdraw page. Where
-                    possible we are required to send funds back to the payment
-                    method that was used to deposit the original funds. For
-                    further details relating to processing times and any
-                    applicable fees, please refer to the Withdrawals section of
-                    our Payments page. You can make a withdrawal from the
-                    Withdraw page. Where possible we are required to send funds
-                    back to the payment method that was used to deposit the
-                    original funds. For further details relating to processing
-                    times and any applicable fees, please refer to the
-                    Withdrawals section of our Payments page.
+                    You can make a withdrawal from the Withdraw page. Where possible we are required to send funds back to the payment method that was used to deposit the original funds. For further details relating to processing times and any applicable fees, please refer to the Withdrawals section of our Payments page. You can make a withdrawal from the Withdraw page. Where possible we are required to send funds back to the payment method that was used to deposit the original funds. For further details relating to processing times and any applicable fees, please refer to the Withdrawals section of our Payments page.
                   </div>
                 </div>
               </div>
@@ -116,7 +104,7 @@ const FAQ = () => {
                     aria-expanded="false"
                     aria-controls="collapseThree"
                   >
-                    How To Making A Withdrawal?
+                    How To order an Item?
                   </button>
                 </h2>
                 <div
@@ -126,13 +114,7 @@ const FAQ = () => {
                   data-bs-parent="#accordionExample"
                 >
                   <div className="accordion-body">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea,
-                    repellat. Laborum modi dolore aliquam officia qui vero
-                    excepturi, dignissimos laboriosam ducimus tempore pariatur
-                    officiis, unde fugiat molestiae. Cum odit, error facere quia
-                    laborum nemo totam officia rerum vitae nesciunt delectus
-                    quas! Eaque repudiandae incidunt sed voluptatibus suscipit
-                    inventore quisquam aut.
+                    You can buy the item by filling the form after logging in the user dashboard.
                   </div>
                 </div>
               </div>
@@ -157,7 +139,7 @@ const FAQ = () => {
                       <div className="position-relative h-100">
                         <img
                           className="position-absolute img-fluid w-100 h-100"
-                          src="img/about.jpg"
+                          src={commission}
                           style={{ objectFit: "cover" }}
                           alt
                         />
@@ -168,17 +150,12 @@ const FAQ = () => {
                       className="col-lg-6 about-text wow fadeInUp"
                       data-wow-delay="0.3s"
                     >
-                      <h3 className="text-secondary mb-4">What is Dnex</h3>
+                      <h3 className="text-secondary mb-4">What is Pair Bonus?</h3>
                       <p className="mb-3">
-                        <b>Dnex (direct sale of next generation)</b>
+                        <b>Zentix (direct sale of future generation)</b>
                       </p>
                       <p className="mb-5">
-                        We create different bundles to sell products and
-                        services online and let our community members use the
-                        technique of ‘direct sale’ and earn a handsome
-                        commission. This reduces the cost of a middle man and
-                        that is turned into commission which is divided into
-                        teams in favour of their selling efforts.
+                        Pair bonus is a form of compensation in network marketing where distributors or affiliates are rewarded for creating pairs of downline members in their organization. In a binary compensation plan, for example, a pair bonus is typically paid when a distributor recruits two new members, one on their left leg and one on their right leg, forming a "pair."
                       </p>
                     </div>
                   </div>
@@ -199,7 +176,7 @@ const FAQ = () => {
                       <div className="position-relative h-100">
                         <img
                           className="position-absolute img-fluid w-100 h-100"
-                          src="img/about.jpg"
+                          src={coins}
                           style={{ objectFit: "cover" }}
                           alt
                         />
@@ -210,17 +187,17 @@ const FAQ = () => {
                       className="col-lg-6 about-text wow fadeInDown"
                       data-wow-delay="0.3s"
                     >
-                      <h3 className="text-secondary mb-4">What is Dnex</h3>
+                      <h3 className="text-secondary mb-4">What is Coins in Zentix?</h3>
                       <p className="mb-3">
-                        <b>Dnex (direct sale of next generation)</b>
+                        <b>Zentix (Achieve your new Rank)</b>
                       </p>
                       <p className="mb-5">
-                        We create different bundles to sell products and
-                        services online and let our community members use the
-                        technique of ‘direct sale’ and earn a handsome
-                        commission. This reduces the cost of a middle man and
-                        that is turned into commission which is divided into
-                        teams in favour of their selling efforts.
+                        Coins are only achieveable in Zentix, You can gain more coins via : <br /> <br />
+                        Understand the requirements: Review the compensation plan and requirements for each rank in Econex. This will give you an idea of what you need to accomplish to achieve the next rank.
+                        <br /> <br />
+                         Develop a plan: Create a detailed plan of action to achieve your goals. This plan should include specific strategies and tactics for recruiting new members, generating sales, and building your downline.
+                        <br /> <br />
+                        Track your progress: Regularly track your progress towards your goals and adjust your plan as necessary. Celebrate your successes and learn from any setbacks.
                       </p>
                     </div>
                   </div>

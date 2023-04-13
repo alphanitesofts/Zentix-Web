@@ -3,6 +3,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+import avatar from '../SourceFiles/avatar.jpg'
+
 const Testimonial = () => {
   var settings = {
     dots: false,
@@ -66,26 +68,19 @@ const Testimonial = () => {
                         <div className="testimonial-item">
                           <i className="fa fa-quote-left fa-3x text-primary top-0 mt-4 me-4" />
                           <p className="mb-4 mt-2" style={{ lineHeight: "2" }}>
-                            Zantex Goes above the Lorem ipsum dolor sit amet
-                            consectetur adipisicing elit. Veritatis maiores iure
-                            ab impedit voluptatibus perspiciatis earum tempore
-                            in illo, eos, quibusdam laudantium adipisci deserunt
-                            nemo, molestias repellendus temporibus. Est optio,
-                            id dolor voluptatibus tempore commodi adipisci ad,
-                            accusamus, ea doloremque quidem ipsum tempora libero
-                            eaque officiis?
+                            The user friendly interface allows it to be very easily understandable. Little to no investments with big proft margins, zentix has been a life changing turn in my life. As a student who does not have time for a full time occupation zentix has made it much easier for me to work online in my free time.
                           </p>
                         </div>
                       </div>
                       <div className="d-flex align-items-end mt-3 mb-4">
                         <img
                           className="img-fluid flex-shrink-0"
-                          src="img/testimonial-1.jpg"
-                          style={{ width: 80, height: 80, borderRadius:'50%' }}
+                          src={avatar}
+                          style={{ width: 80, height: 80, borderRadius: '50%' }}
                         />
                         <div className="ms-4">
-                          <h5 className="mb-1">Sarah Jones</h5>
-                          <p className="m-0">Dalias, TX</p>
+                          <h5 className="mb-1">Mr. Ahmed</h5>
+                          <p className="m-0">Lahore, Pakistan</p>
                         </div>
                       </div>
                     </div>
@@ -95,26 +90,19 @@ const Testimonial = () => {
                         <div className="testimonial-item">
                           <i className="fa fa-quote-left fa-3x text-primary top-0 mt-4 me-4" />
                           <p className="mb-4 mt-2" style={{ lineHeight: "2" }}>
-                            Zantex Goes above the Lorem ipsum dolor sit amet
-                            consectetur adipisicing elit. Veritatis maiores iure
-                            ab impedit voluptatibus perspiciatis earum tempore
-                            in illo, eos, quibusdam laudantium adipisci deserunt
-                            nemo, molestias repellendus temporibus. Est optio,
-                            id dolor voluptatibus tempore commodi adipisci ad,
-                            accusamus, ea doloremque quidem ipsum tempora libero
-                            eaque officiis?
+                            Zentix has been a life changing experience for me.  Easy to work on and huge proft margins with very little efforts, zentix is something i would like to suggest to all the people who are looking for an online job with very little investments.
                           </p>
                         </div>
                       </div>
                       <div className="d-flex align-items-end mt-3 mb-4">
                         <img
                           className="img-fluid flex-shrink-0"
-                          src="img/testimonial-1.jpg"
-                          style={{ width: 80, height: 80, borderRadius:'50%' }}
+                          src={avatar}
+                          style={{ width: 80, height: 80, borderRadius: '50%' }}
                         />
                         <div className="ms-4">
-                          <h5 className="mb-1">Sarah Jones</h5>
-                          <p className="m-0">Dalias, TX</p>
+                          <h5 className="mb-1">Farhan Ali</h5>
+                          <p className="m-0">Lahore, Pakistan</p>
                         </div>
                       </div>
                     </div>
@@ -124,29 +112,24 @@ const Testimonial = () => {
                         <div className="testimonial-item">
                           <i className="fa fa-quote-left fa-3x text-primary top-0 mt-4 me-4" />
                           <p className="mb-4 mt-2" style={{ lineHeight: "2" }}>
-                            Zantex Goes above the Lorem ipsum dolor sit amet
-                            consectetur adipisicing elit. Veritatis maiores iure
-                            ab impedit voluptatibus perspiciatis earum tempore
-                            in illo, eos, quibusdam laudantium adipisci deserunt
-                            nemo, molestias repellendus temporibus. Est optio,
-                            id dolor voluptatibus tempore commodi adipisci ad,
-                            accusamus, ea doloremque quidem ipsum tempora libero
-                            eaque officiis?
+                            The user friendly interface allows it to be very easily understandable. Little to no investments with big proft margins, zentix has been a life changing turn in my life. As a student who does not have time for a full time occupation zentix has made it much easier for me to work online in my free time.
                           </p>
                         </div>
                       </div>
                       <div className="d-flex align-items-end mt-3 mb-4">
                         <img
                           className="img-fluid flex-shrink-0"
-                          src="img/testimonial-1.jpg"
-                          style={{ width: 80, height: 80, borderRadius:'50%' }}
+                          src={avatar}
+                          style={{ width: 80, height: 80, borderRadius: '50%' }}
                         />
                         <div className="ms-4">
-                          <h5 className="mb-1">Sarah Jones</h5>
-                          <p className="m-0">Dalias, TX</p>
+                          <h5 className="mb-1">Mr. Ahmed</h5>
+                          <p className="m-0">Lahore, Pakistan</p>
                         </div>
                       </div>
                     </div>
+
+
                   </Slider>
                 </div>
               </div>

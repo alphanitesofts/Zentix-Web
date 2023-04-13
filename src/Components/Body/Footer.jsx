@@ -1,5 +1,5 @@
 import React from "react";
-
+import logo from '../SourceFiles/logo_black.jpeg'
 const Footer = () => {
   return (
     <div>
@@ -11,8 +11,8 @@ const Footer = () => {
       >
         <div className="container py-5">
           <div className="row g-5">
+              <img src={logo} style={{height:'60px', width:'200px'}} className="mx-auto" alt="" />
             <div className="col-lg-12">
-              <h4 className="text-light mb-4">Quick Links</h4>
               
               <div className="col-lg-6 mx-auto">
                 <p className="text-center ">

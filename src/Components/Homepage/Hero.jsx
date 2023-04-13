@@ -1,5 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import slider1 from '../SourceFiles/slider_1.jpeg'
+import slider2 from '../SourceFiles/slider_2.jpeg'
+import slider3 from '../SourceFiles/slider_3.jpeg'
+import slider4 from '../SourceFiles/slider_4.jpeg'
+import slider5 from '../SourceFiles/slider_5.jpeg'
+import slider6 from '../SourceFiles/slider_6.jpeg'
+
+import backgroundBanner from '../SourceFiles/mainbannerx.jpg'
+
+import back from '../SourceFiles/back.jpg'
 
 const Hero = () => {
   return (
@@ -10,12 +20,12 @@ const Hero = () => {
         data-bs-ride="carousel"
       >
         <div className="carousel-inner">
-          <div className="carousel-item active" data-bs-interval={5000}>
+          <div className="carousel-item active" data-bs-interval={7000}>
             <div className="container-fluid p-0 pb-5">
-              <div className=" header-carousel position-relative mb-5">
+              <div className=" header-carousel position-relative">
                 <div className=" position-relative">
-                  <img className="img-fluid heroImg" src="img/truck2.jpg" alt />
-                  <div
+                  <img className="img-fluid Hero-Img" style={{ marginTop: '70px' }} src={backgroundBanner} alt />
+                  {/* <div
                     className="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
                     style={{ background: "rgba(6, 3, 21, .5)" }}
                   >
@@ -46,17 +56,17 @@ const Hero = () => {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
           </div>
           <div className="carousel-item" data-bs-interval={5000}>
             <div className="container-fluid p-0 pb-5">
-              <div className=" header-carousel position-relative mb-5">
+              <div className=" header-carousel position-relative ">
                 <div className=" position-relative">
-                  <img className="img-fluid heroImg" src="img/truck2.jpg" alt />
-                  <div
+                  <img className="img-fluid Hero-Img" style={{ marginTop: '70px' }} src={backgroundBanner} alt />
+                  {/* <div
                     className="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
                     style={{ background: "rgba(6, 3, 21, .5)" }}
                   >
@@ -87,17 +97,17 @@ const Hero = () => {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
           </div>
           <div className="carousel-item" data-bs-interval={5000}>
             <div className="container-fluid p-0 pb-5">
-              <div className=" header-carousel position-relative mb-5">
+              <div className=" header-carousel position-relative ">
                 <div className=" position-relative">
-                  <img className="img-fluid heroImg" src="img/truck2.jpg" alt />
-                  <div
+                  <img className="img-fluid Hero-Img" style={{ marginTop: '70px' }} src={backgroundBanner} alt />
+                  {/* <div
                     className="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
                     style={{ background: "rgba(6, 3, 21, .5)" }}
                   >
@@ -128,11 +138,12 @@ const Hero = () => {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
           </div>
+
         </div>
 
         <button
@@ -153,7 +164,7 @@ const Hero = () => {
           className="carousel-control-next"
           type="button"
           data-bs-target="#carouselExampleInterval"
-          data-bs-slide="prev"
+          data-bs-slide="next"
         >
           <div className="cheros">
             <i

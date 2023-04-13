@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import logo from '../SourceFiles/logo_white.jpeg'
 
 const Navbar = () => {
   const [index, setindex] = useState(0)
@@ -11,7 +12,7 @@ const Navbar = () => {
         <a onClick={() => setindex(0)}
           className="navbar-brand d-flex align-items-center px-4 ms-5 px-lg-5"
         >
-          <h2 className="mb-2 text-primary">Zentix</h2>
+          <img src={logo} style={{height:'50px'}} alt="" />
         </a>
         <button
           type="button"
@@ -23,11 +24,11 @@ const Navbar = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarCollapse">
           <div className="navbar-nav ms-auto p-4 p-lg-0">
-            <a onClick={() => setindex(0)} className={index === 0 ? 'nav-item nav-link' : 'nav-item nav-link'}> <Link to="/">
+            <a onClick={() => setindex(0)} className={index === 0 ? 'nav-item nav-link active-page' : 'nav-item nav-link '}> <Link to="/">
               HOME
             </Link>
             </a>
-            <a onClick={() => setindex(0)} className={index === 0 ? 'nav-item nav-link' : 'nav-item nav-link'}> <Link to="/shop">
+            <a onClick={() => setindex(1)} className={index === 1 ? 'nav-item nav-link' : 'nav-item nav-link active-page'}> <Link to="/shop">
               SHOP
             </Link>
             </a>

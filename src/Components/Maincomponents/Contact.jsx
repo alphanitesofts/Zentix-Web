@@ -1,4 +1,6 @@
 import React from "react";
+import contact from '../SourceFiles/contact_us.png'
+
 
 const Contact = () => {
   return (
@@ -19,21 +21,21 @@ const Contact = () => {
               <div className="contact-info-block text-center bg-white">
                 <i className="fa-solid fa-envelope" />
                 <h4>Address</h4>
-                <p className="lead">Office no 14B First Floor Alladin Plaza</p>
+                <p className="lead">Nadirabad Lahore Cantt</p>
               </div>
             </div>
             <div className="col-lg-4 col-sm-6 col-md-6 mt-5">
               <div className="contact-info-block text-center bg-white">
                 <i className="fa-sharp fa-solid fa-building" />
                 <h4>Email</h4>
-                <p className="lead">info@econex.com.pk</p>
+                <p className="lead">ztix22001@gmail.com</p>
               </div>
             </div>
             <div className="col-lg-4 col-sm-6 col-md-6 mt-5">
               <div className="contact-info-block text-center bg-white">
                 <i className="fa-solid fa-phone" />
                 <h4>Phone Number</h4>
-                <p className="lead">051-8908800</p>
+                <p className="lead">03277888834</p>
               </div>
             </div>
           </div>
@@ -44,7 +46,22 @@ const Contact = () => {
           id="features"
         >
           <div className="container feature py-5 px-lg-0">
-            <div className="row g-5 mx-lg-0">
+            <div className="row flex-wrap-reverse g-5 mx-lg-0">
+              <div
+                className="col-lg-6 pe-lg-0 wow fadeInRight"
+                data-wow-delay="0.1s"
+                style={{ minHeight: 400 }}
+              >
+                <div className="position-relative h-100">
+                  <img
+
+                    className="position-absolute img-fluid"
+                    src={contact}
+                    style={{ marginTop: '60px' }}
+                    alt
+                  />
+                </div>
+              </div>
               <div
                 className="col-lg-6 feature-text wow fadeInUp"
                 data-wow-delay="0.1s"
@@ -92,24 +109,11 @@ const Contact = () => {
                   </div>
                 </div>
                 <div>
-                    <button className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Submit Now</button>
+                  <button className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Submit Now</button>
                 </div>
               </div>
 
-              <div
-                className="col-lg-6 pe-lg-0 wow fadeInRight"
-                data-wow-delay="0.1s"
-                style={{ minHeight: 400 }}
-              >
-                <div className="position-relative h-100">
-                  <img
-                    className="position-absolute img-fluid w-100 h-100"
-                    src="img/About.jpg"
-                    style={{ objectFit: "cover" }}
-                    alt
-                  />
-                </div>
-              </div>
+
             </div>
           </div>
         </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import shopImg from '../SourceFiles/shop.png'
 
 const Shop = () => {
   return (
@@ -13,112 +14,15 @@ const Shop = () => {
         </div>
       </div>
       <div className="">
-        <h1 className="text-center text-secondary mt-5">
+        <h1 className="text-center text-primary mt-5">
           Buy Through Our Category
         </h1>
-        <h4 className="text-center text-primary p-3">
-          You can browse through our category to see our lates products
-        </h4>
-        <div className="row p-2 mt-5 d-flex justify-content-center">
-          <div className="col-lg-2 col-sm-6">
-            <div className="card m-2 categories-card ">
-              <div className="card-body text-center text-center">
-                <i className="fa-solid fa-3x fa-shopping-cart" />
-                <h4 className="mt-3">All</h4>
-                <div className="icon-button">
-                  <i className="fa fa-angle-right"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-2 col-sm-6">
-            <div className="card m-2 categories-card">
-              <div className="card-body text-center">
-                <i className="fa-solid fa-3x fa-shirt" />
-                <h4 className="mt-3">Clothes</h4>
-                <div className="icon-button">
-                  <i className="fa fa-angle-right"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-2 col-sm-6">
-            <div className="card m-2 categories-card">
-              <div className="card-body text-center">
-                <i className="fa-solid fa-3x fa-mobile" />
-                <h4 className="mt-3">Electronics</h4>
-                <div className="icon-button">
-                  <i className="fa fa-angle-right"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-2 col-sm-6">
-            <div className="card m-2 categories-card">
-              <div className="card-body text-center">
-                <i className="fa-solid fa-3x fa-book" />
-                <h4 className="mt-3">Books</h4>
-                <div className="icon-button">
-                  <i className="fa fa-angle-right"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div
-          className="row p-2 d-flex justify-content-center"
-          style={{ marginBottom: "50px" }}
-        >
-          <div className="col-lg-2 col-sm-6">
-            <div className="card m-2 categories-card ">
-              <div className="card-body text-center text-center">
-                <i className="fa-solid fa-3x fa-2x fa-gem" />
-                <h4 className="mt-3">Beauty</h4>
-                <div className="icon-button">
-                  <i className="fa fa-angle-right"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-2 col-sm-6">
-            <div className="card m-2 categories-card">
-              <div className="card-body text-center">
-                <i className="fa-solid fa-3x fa-house" />
-                <h4 className="mt-3">Home</h4>
-                <div className="icon-button">
-                  <i className="fa fa-angle-right"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-2 col-sm-6">
-            <div className="card m-2 categories-card">
-              <div className="card-body text-center">
-                <i className="fa-solid fa-3x fa-gamepad" />
-                <h4 className="mt-3">Children</h4>
-                <div className="icon-button">
-                  <i className="fa fa-angle-right"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-2 col-sm-6">
-            <div className="card m-2 categories-card">
-              <div className="card-body text-center">
-                <i className="fa-solid fa-3x fa-headphones" />
-                <h4 className="mt-3">Accesories</h4>
-                <div className="icon-button">
-                  <i className="fa fa-angle-right"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
 
         <div className="py-5">
           <div id="shop">
-            <div className="card card-shadows container" style={{ borderRadius: "10px" }}>
+
+            <div className="card card-shadows container" style={{ borderRadius: "10px", cursor: 'not-allowed' }}>
+
               <div className="card-body py-5">
                 <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
                   <h1 className="text-secondary">Our Products</h1>
@@ -129,41 +33,29 @@ const Shop = () => {
                     Welcome! Please check our products here...
                   </p>
                 </div>
-                <div className="row g-4">
-                  <div
-                    className="col-lg-3 cardx wow fadeInUp"
-                    data-wow-delay="0.3s"
-                  >
-                    <div className="team-item p-4">
-                      <div className="overflow-hidden mb-4">
-                        <img className="img-fluid" src="img/about.jpg" alt />
-                      </div>
-                      <div className="m-2">
-                        <h4 className="mb-2 title-card">Smart Watch</h4>
-                        <div className="d-flex">
-                          <div>
-                            <p className="mt-0 mb-0">
-                              <b>Category</b>
-                            </p>
-                            <p className="mt-0 mb-0">Accessories</p>
-                          </div>
-                          <div className="ms-auto">
-                            <p className="mt-0 mb-0">
-                              <b>Price</b>
-                            </p>
-                            <p className="mt-0 mb-0">1799</p>
+                <div className="container-fluid">
+                  <div className=" header-carousel position-relative">
+                    <div className=" position-relative">
+                      <img className="img-fluid Hero-Img" style={{ filter: 'blur(5px)' }} src={shopImg} alt />
+                      <div
+                        className="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+                        style={{ background: "rgba(6, 3, 21, .5)" }}
+                      >
+                        <div className="ribbon ribbon-top-right">
+                          <span>soon!</span>
+                        </div>
+                        <div className="container">
+                          <div className="row justify-content-center text-center">
+                            <div className="col-10 col-lg-8">
+                              <h3 className="text-primary text-uppercase mb-3 animated slideInDown">
+                                SHOP ONLINE
+                              </h3>
+                              <h1 className="display-3 text-white animated slideInDown mb-4">
+                                ZENTIX Best Online Selling Platform
+                              </h1>
+                            </div>
                           </div>
                         </div>
-                        <p></p>
-                      </div>
-                      <div className="btn-slide mt-1">
-                        <i className="fa fa-share" />
-                        <span>
-                          <Link to='/buy-item'>
-                            <i className="fa-solid fa-cart-shopping" />
-                            &nbsp;<span>View</span>
-                          </Link>
-                        </span>
                       </div>
                     </div>
                   </div>

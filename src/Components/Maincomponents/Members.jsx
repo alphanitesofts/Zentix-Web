@@ -1,4 +1,10 @@
 import React from "react";
+import girl from '../SourceFiles/girl.jpeg'
+import ahmed from '../SourceFiles/ahmed_one.jpeg'
+import ahmed_two from '../SourceFiles/ahmed_one.jpeg'
+import manager from '../SourceFiles/manager.jpeg'
+import umer from '../SourceFiles/umer.jpeg'
+
 
 const Members = () => {
   return (
@@ -28,32 +34,20 @@ const Members = () => {
                   </p>
                 </div>
                 <div className="row g-4">
+
                   <div
                     className="col-lg-3 col-md-6 wow fadeInUp"
                     data-wow-delay="0.3s"
                   >
                     <div className="team-item p-4 bg-white">
                       <div className="overflow-hidden mb-4">
-                        <img className="img-fluid" src="img/man.png" alt />
+                        <img className="img-fluid" src={umer} alt />
                       </div>
                       <div className="m-2 text-center">
-                        <h4 className="mb-0 title-card">Ibrahim Khilji</h4>
-                        <p>General Manager</p>
+                        <h4 className="mb-0 title-card">M. Umer Yaqoob</h4>
+                        <p>CEO</p>
                       </div>
-                      {/* <div className="btn-slide mt-1">
-                      <i className="fa fa-share" />
-                      <span>
-                        <a href>
-                          <i className="fab fa-facebook-f" />
-                        </a>
-                        <a href>
-                          <i className="fab fa-twitter" />
-                        </a>
-                        <a href>
-                          <i className="fab fa-instagram" />
-                        </a>
-                      </span>
-                    </div> */}
+
                     </div>
                   </div>
 
@@ -63,28 +57,47 @@ const Members = () => {
                   >
                     <div className="team-item p-4 bg-white">
                       <div className="overflow-hidden mb-4">
-                        <img className="img-fluid" src="img/man.png" alt />
+                        <img className="img-fluid" src={manager} alt />
                       </div>
                       <div className="m-2 text-center">
-                        <h4 className="mb-0 title-card">Ibrahim Khilji</h4>
-                        <p>General Manager</p>
+                        <h4 className="mb-0 title-card">SYed Talal</h4>
+                        <p>Manager</p>
                       </div>
-                      {/* <div className="btn-slide mt-1">
-                      <i className="fa fa-share" />
-                      <span>
-                        <a href>
-                          <i className="fab fa-facebook-f" />
-                        </a>
-                        <a href>
-                          <i className="fab fa-twitter" />
-                        </a>
-                        <a href>
-                          <i className="fab fa-instagram" />
-                        </a>
-                      </span>
-                    </div> */}
+
                     </div>
                   </div>
+
+                  <div
+                    className="col-lg-3 col-md-6 wow fadeInUp"
+                    data-wow-delay="0.3s"
+                  >
+                    <div className="team-item p-4 bg-white">
+                      <div className="overflow-hidden mb-4">
+                        <img className="img-fluid" src={ahmed} alt />
+                      </div>
+                      <div className="m-2 text-center">
+                        <h4 className="mb-0 title-card">Ahmed Razzaq</h4>
+                        <p>HOD</p>
+                      </div>
+
+                    </div>
+                  </div>
+
+                  <div
+                    className="col-lg-3 col-md-6 wow fadeInUp"
+                    data-wow-delay="0.3s"
+                  >
+                    <div className="team-item p-4 bg-white">
+                      <div className="overflow-hidden mb-4">
+                        <img className="img-fluid" src={girl} alt />
+                      </div>
+                      <div className="m-2 text-center">
+                        <h4 className="mb-0 title-card">Amina Shair</h4>
+                        <p>COO</p>
+                      </div>
+                    </div>
+                  </div>
+
                 </div>
               </div>
             </div>

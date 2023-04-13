@@ -1,4 +1,12 @@
 import React from "react";
+import girl from '../SourceFiles/girl.jpeg'
+import ahmed from '../SourceFiles/ahmed_one.jpeg'
+import ahmed_two from '../SourceFiles/ahmed_one.jpeg'
+import manager from '../SourceFiles/manager.jpeg'
+import umer from '../SourceFiles/umer.jpeg'
+
+
+
 
 const Team = () => {
   return (
@@ -18,36 +26,86 @@ const Team = () => {
                 </p>
               </div>
               <div className="row g-4">
+
+                {/* umer */}
                 <div
-                  className="col-lg-4 col-md-6 cardx wow fadeInUp"
+                  className="col-lg-3 col-md-6 cardx wow fadeInUp"
                   data-wow-delay="0.3s"
                 >
                   <div className="team-item p-4">
                     <div className="overflow-hidden mb-4">
-                      <img className="img-fluid" src="img/man.png" alt />
+                      <img className="img-fluid" src={umer} alt />
                     </div>
                     <div className="m-2">
-                    <h4 className="mb-0 title-card">Ibrahim Khilji</h4>
-                    <p> <i className="fa-solid fa-calendar-day"/> 10 nov, 2021</p>
-                    <p className="mt-2">Ibrahim Khilji Founder and CEO A first-generation direct-sales entrepreneur, Ibrahim Khilji is passionate about inspiring new generations of entrepreneurs. Sha...</p>
+                      <h4 className="mb-0 title-card">M. Umer Yaqoob</h4>
+                      <p> <i className="fa-solid fa-calendar-day" /> 10 april, 2023</p>
+                      <p className="mt-2">
+                      </p>
                     </div>
-                    {/* <div className="btn-slide mt-1">
-                      <i className="fa fa-share" />
-                      <span>
-                        <a href>
-                          <i className="fab fa-facebook-f" />
-                        </a>
-                        <a href>
-                          <i className="fab fa-twitter" />
-                        </a>
-                        <a href>
-                          <i className="fab fa-instagram" />
-                        </a>
-                      </span>
-                    </div> */}
                   </div>
                 </div>
-                
+
+
+                {/* talal */}
+                <div
+                  className="col-lg-3 col-md-6 cardx wow fadeInUp"
+                  data-wow-delay="0.3s"
+                >
+                  <div className="team-item p-4">
+                    <div className="overflow-hidden mb-4">
+                      <img className="img-fluid" src={manager} alt />
+                    </div>
+                    <div className="m-2">
+                      <h4 className="mb-0 title-card">Syed Talal</h4>
+                      <p> <i className="fa-solid fa-calendar-day" /> 10 april, 2023</p>
+                      <p className="mt-2">
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* ahmed */}
+                <div
+                  className="col-lg-3 col-md-6 cardx wow fadeInUp"
+                  data-wow-delay="0.3s"
+                >
+                  <div className="team-item p-4">
+                    <div className="overflow-hidden mb-4">
+                      <img className="img-fluid" src={ahmed} alt />
+                    </div>
+                    <div className="m-2">
+                      <h4 className="mb-0 title-card">Ahmed Razzaq</h4>
+                      <p> <i className="fa-solid fa-calendar-day" /> 10 april, 2023</p>
+                      <p className="mt-2">
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* amina */}
+                <div
+                  className="col-lg-3 col-md-6 cardx wow fadeInUp"
+                  data-wow-delay="0.3s"
+                >
+                  <div className="team-item p-4">
+                    <div className="overflow-hidden mb-4">
+                      <img className="img-fluid" src={girl} alt />
+                    </div>
+                    <div className="m-2">
+                      <h4 className="mb-0 title-card">Amina Shair</h4>
+                      <p> <i className="fa-solid fa-calendar-day" /> 10 april, 2023</p>
+                      <p className="mt-2">
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+
+
+
+
+
+
               </div>
             </div>
           </div>

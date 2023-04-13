@@ -16,14 +16,27 @@ const About = () => {
       >
         <iframe
           className="iframe-responsive"
-          src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+          src="https://www.youtube.com/embed/Fx_-7mCbhEI"
           title="YouTube video player"
-          allow="accelerometer;mute; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allow="accelerometer;muted; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowFullScreen
         />
       </Modal>
 
       <div className="px-lg-0 " id="about">
+        <div className="d-flex justify-content-center mb-5">
+          <button
+            to="/Login"
+            className="btn btn-secondary py-md-3 px-md-5 me-3 animated slideInLeft"
+          >
+            Login
+          </button>
+          <button
+            to="/Register"
+            className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft"
+          >Register</button>
+        </div>
+
         <div className="  about px-lg-0">
           <div
             className="card card-shadows container"
@@ -36,13 +49,10 @@ const About = () => {
                   data-wow-delay="0.1s"
                 >
                   <div className="abt-bg">
-                    <a
-                      onClick={() => {
-                        shouldShow(true);
-                      }}
+                    <a onClick={() => { shouldShow(true) }}
                       className="bdr-ripple-ani-btn pink two"
                     >
-                      <i className="fa fa-play" />
+                      <i className="fa-brands fa-youtube" />
                     </a>
                   </div>
                 </div>
@@ -53,27 +63,15 @@ const About = () => {
                 >
                   <h1 className="text-secondary mb-4">About Us</h1>
                   <p className="mb-3">
-                    <b>Modified:</b>Zantex – The Economy of Next-generation{" "}
+                    <b>Modified:</b>Zentix – Makes Strong Future {" "}
                   </p>
                   <p className="text-center">
-                    <b>About the US</b>
+                    <b>About US</b>
                   </p>
                   <p className="mb-5">
-                    Zantex is meant to help people everywhere enjoy beautiful,
-                    work-life balanced, healthy, and fulfilling life through our
-                    exceptional and organic products along with quality services
-                    and marketing plan. It’s a pack of fun and rewarding
-                    business opportunity, and a culture of family, gratitude,
-                    and quality services. Zantex has brought the latest business
-                    model to Pakistan. We’re looking forward to promoting the
-                    concept of E-commerce and dropshipping in Pakistan. We will
-                    facilitate all those people who can spare their time and
-                    spend it with this project to work part-time and wanted to
-                    stable their financial position and the existing business
-                    holders who are looking forward to expanding their business.
-                    Because we believe that increasing rate of unemployment can
-                    only be overwhelmed with the good business opportunities
-                    just like <b>Zantex</b>– The Economy of Next-generation.
+                    Founded by M.Umer Yaqoob in April 2023.” Our Online -Business is founded with a vision of helping people achieve financial freedom and independence through online opportunities.” If Welcome to our innovative part-time work and earn the business! We understand that the modern workforce is changing, and traditional 9-to -5 jobs no longer work for everyone. That’s why we offer unique and exciting job opportunities that allow individuals to earn a great income while maintaining flexibility in their schedules. If you're looking for a part-time job that offers flexibility and great earning potential, look no further than our business. Join Zentix today and start earning while working on your own terms.
+                    <br /> <br />
+                    <b>Zentix</b> - Makes Strong Future .
                   </p>
                 </div>
               </div>
