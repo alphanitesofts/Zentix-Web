@@ -85,6 +85,8 @@ const Testimonial = () => {
                       </div>
                     </div>
 
+
+
                     <div className="message-review">
                       <div className="card container reviews-client ">
                         <div className="testimonial-item">
@@ -129,6 +131,27 @@ const Testimonial = () => {
                       </div>
                     </div>
 
+                    <div className="message-review">
+                      <div className="card container reviews-client ">
+                        <div className="testimonial-item">
+                          <i className="fa fa-quote-left fa-3x text-primary top-0 mt-4 me-4" />
+                          <p className="mb-4 mt-2" style={{ lineHeight: "2" }}>
+                            Zentix has been a life changing experience for me.  Easy to work on and huge proft margins with very little efforts, zentix is something i would like to suggest to all the people who are looking for an online job with very little investments.
+                          </p>
+                        </div>
+                      </div>
+                      <div className="d-flex align-items-end mt-3 mb-4">
+                        <img
+                          className="img-fluid flex-shrink-0"
+                          src={avatar}
+                          style={{ width: 80, height: 80, borderRadius: '50%' }}
+                        />
+                        <div className="ms-4">
+                          <h5 className="mb-1">Farhan Ali</h5>
+                          <p className="m-0">Lahore, Pakistan</p>
+                        </div>
+                      </div>
+                    </div>
 
                   </Slider>
                 </div>

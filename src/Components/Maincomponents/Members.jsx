@@ -53,7 +53,7 @@ const Members = () => {
 
                   <div
                     className="col-lg-3 col-md-6 wow fadeInUp"
-                    data-wow-delay="0.3s"
+                    data-wow-delay="0.5s"
                   >
                     <div className="team-item p-4 bg-white">
                       <div className="overflow-hidden mb-4">
@@ -69,7 +69,7 @@ const Members = () => {
 
                   <div
                     className="col-lg-3 col-md-6 wow fadeInUp"
-                    data-wow-delay="0.3s"
+                    data-wow-delay="0.7s"
                   >
                     <div className="team-item p-4 bg-white">
                       <div className="overflow-hidden mb-4">
@@ -77,7 +77,7 @@ const Members = () => {
                       </div>
                       <div className="m-2 text-center">
                         <h4 className="mb-0 title-card">Ahmed Razzaq</h4>
-                        <p>HOD</p>
+                        <p>Manager</p>
                       </div>
 
                     </div>
@@ -85,7 +85,7 @@ const Members = () => {
 
                   <div
                     className="col-lg-3 col-md-6 wow fadeInUp"
-                    data-wow-delay="0.3s"
+                    data-wow-delay="0.9s"
                   >
                     <div className="team-item p-4 bg-white">
                       <div className="overflow-hidden mb-4">
@@ -93,7 +93,7 @@ const Members = () => {
                       </div>
                       <div className="m-2 text-center">
                         <h4 className="mb-0 title-card">Amina Shair</h4>
-                        <p>COO</p>
+                        <p>Manager</p>
                       </div>
                     </div>
                   </div>

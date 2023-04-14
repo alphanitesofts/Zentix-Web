@@ -49,7 +49,7 @@ const Team = () => {
                 {/* talal */}
                 <div
                   className="col-lg-3 col-md-6 cardx wow fadeInUp"
-                  data-wow-delay="0.3s"
+                  data-wow-delay="0.5s"
                 >
                   <div className="team-item p-4">
                     <div className="overflow-hidden mb-4">
@@ -67,7 +67,7 @@ const Team = () => {
                 {/* ahmed */}
                 <div
                   className="col-lg-3 col-md-6 cardx wow fadeInUp"
-                  data-wow-delay="0.3s"
+                  data-wow-delay="0.7s"
                 >
                   <div className="team-item p-4">
                     <div className="overflow-hidden mb-4">
@@ -85,7 +85,7 @@ const Team = () => {
                 {/* amina */}
                 <div
                   className="col-lg-3 col-md-6 cardx wow fadeInUp"
-                  data-wow-delay="0.3s"
+                  data-wow-delay="0.9s"
                 >
                   <div className="team-item p-4">
                     <div className="overflow-hidden mb-4">

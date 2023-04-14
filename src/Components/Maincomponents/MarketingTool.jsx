@@ -40,7 +40,7 @@ const MarketingTool = () => {
                     <br /> <br /> So, download your seller center app now, and begin your online selling journey in Pakistan!
                   </p>
 
-                  <h2 className="mt-3">About EcoNex Online Shopping</h2>
+                  <h2 className="mt-3">About Zentix Online Shopping</h2>
                   <p className="mt-3">
                     As the largest Online Shopping platform in Pakistan, Zentix provides a variety of products in all kinds of categories. Customers can browse through the catalog and find their favorite picks at the best possible rates. Zentix makes a promise of giving you affordable prices, reliable products, safe shopping, secure payments, prompt deliveries, and easy return/exchange. Offering the benefit of convenience and increased affordability, Zentix is your most reliable online shopping store. You can also learn how to become an affiliate marketer with the Zentix Affiliate Program and start earning money today!
                     <br /> <br /> Download your Zentix Mobile App now and get access to millions of products, amazing discounts, bundle deals, and much more! Get up to 80% Off on various products

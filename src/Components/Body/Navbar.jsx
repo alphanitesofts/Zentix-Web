@@ -49,12 +49,12 @@ const Navbar = () => {
                 More
               </a>
               <div className="dropdown-menu fade-up m-0">
-                <Link to="/login" className="dropdown-item">
+                <a  href="https://userdashboard.zentix.asia" target={"_blank"} className="dropdown-item">
                   Login
-                </Link>
-                <Link to="/Register" className="dropdown-item">
+                </a>
+                <a href="https://userdashboard.zentix.asia" target={"_blank"}  className="dropdown-item">
                   Register
-                </Link>
+                </a>
               </div>
             </div>
           </div>

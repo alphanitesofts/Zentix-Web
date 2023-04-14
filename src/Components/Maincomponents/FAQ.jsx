@@ -193,7 +193,7 @@ const FAQ = () => {
                       </p>
                       <p className="mb-5">
                         Coins are only achieveable in Zentix, You can gain more coins via : <br /> <br />
-                        Understand the requirements: Review the compensation plan and requirements for each rank in Econex. This will give you an idea of what you need to accomplish to achieve the next rank.
+                        Understand the requirements: Review the compensation plan and requirements for each rank in Zentix. This will give you an idea of what you need to accomplish to achieve the next rank.
                         <br /> <br />
                          Develop a plan: Create a detailed plan of action to achieve your goals. This plan should include specific strategies and tactics for recruiting new members, generating sales, and building your downline.
                         <br /> <br />

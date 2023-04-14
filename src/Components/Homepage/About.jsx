@@ -25,16 +25,15 @@ const About = () => {
 
       <div className="px-lg-0 " id="about">
         <div className="d-flex justify-content-center mb-5">
-          <button
-            to="/Login"
+          <a
+             href="https://userdashboard.zentix.asia" target={"_blank"}
             className="btn btn-secondary py-md-3 px-md-5 me-3 animated slideInLeft"
           >
             Login
-          </button>
-          <button
-            to="/Register"
+          </a>
+          <a  href="https://userdashboard.zentix.asia" target={"_blank"}
             className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft"
-          >Register</button>
+          >Register</a>
         </div>
 
         <div className="  about px-lg-0">
