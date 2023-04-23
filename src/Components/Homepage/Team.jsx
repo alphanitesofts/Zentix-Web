@@ -1,12 +1,8 @@
 import React from "react";
 import girl from '../SourceFiles/girl.jpeg'
 import ahmed from '../SourceFiles/ahmed_one.jpeg'
-import ahmed_two from '../SourceFiles/ahmed_one.jpeg'
 import manager from '../SourceFiles/manager.jpeg'
 import umer from '../SourceFiles/umer.jpeg'
-
-
-
 
 const Team = () => {
   return (
@@ -56,7 +52,7 @@ const Team = () => {
                       <img className="img-fluid" src={manager} alt />
                     </div>
                     <div className="m-2">
-                      <h4 className="mb-0 title-card">Syed Talal</h4>
+                      <h4 className="mb-0 title-card">M. Talal Bukhari</h4>
                       <p> <i className="fa-solid fa-calendar-day" /> 10 april, 2023</p>
                       <p className="mt-2">
                       </p>
@@ -92,7 +88,7 @@ const Team = () => {
                       <img className="img-fluid" src={girl} alt />
                     </div>
                     <div className="m-2">
-                      <h4 className="mb-0 title-card">Amina Shair</h4>
+                      <h4 className="mb-0 title-card">Amna Shair</h4>
                       <p> <i className="fa-solid fa-calendar-day" /> 10 april, 2023</p>
                       <p className="mt-2">
                       </p>

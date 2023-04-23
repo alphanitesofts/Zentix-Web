@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import shopImg from '../SourceFiles/shop.png'
 
 const Shop = () => {
@@ -20,9 +19,7 @@ const Shop = () => {
 
         <div className="py-5">
           <div id="shop">
-
             <div className="card card-shadows container" style={{ borderRadius: "10px", cursor: 'not-allowed' }}>
-
               <div className="card-body py-5">
                 <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
                   <h1 className="text-secondary">Our Products</h1>

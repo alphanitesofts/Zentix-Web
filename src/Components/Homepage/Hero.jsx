@@ -1,14 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import slider1 from '../SourceFiles/slider_1.jpeg'
-import slider2 from '../SourceFiles/slider_2.jpeg'
-import slider3 from '../SourceFiles/slider_3.jpeg'
-import slider4 from '../SourceFiles/slider_4.jpeg'
-import slider5 from '../SourceFiles/slider_5.jpeg'
-import slider6 from '../SourceFiles/slider_6.jpeg'
-
 import backgroundBanner from '../SourceFiles/mainbannerx.jpg'
-
 import back from '../SourceFiles/back.jpg'
 
 const Hero = () => {

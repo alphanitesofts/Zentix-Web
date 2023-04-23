@@ -11,9 +11,9 @@ const Footer = () => {
       >
         <div className="container py-5">
           <div className="row g-5">
-              <img src={logo} style={{height:'60px', width:'200px'}} className="mx-auto" alt="" />
+            <img src={logo} style={{ height: '60px', width: '200px' }} className="mx-auto" alt="" />
             <div className="col-lg-12">
-              
+
               <div className="col-lg-6 mx-auto">
                 <p className="text-center ">
                   We are a worldwide trusted company . This secured website with
@@ -23,20 +23,20 @@ const Footer = () => {
                 </p>
               </div>
 
-                <div className="d-flex justify-content-center">
-                  <a className="btn btn-outline-light btn-social" href>
-                    <i className="fab fa-twitter" />
-                  </a>
-                  <a className="btn btn-outline-light btn-social" href>
-                    <i className="fab fa-facebook-f" />
-                  </a>
-                  <a className="btn btn-outline-light btn-social" href>
-                    <i className="fab fa-youtube" />
-                  </a>
-                  <a className="btn btn-outline-light btn-social" href>
-                    <i className="fab fa-linkedin-in" />
-                  </a>
-                </div>
+              <div className="d-flex justify-content-center">
+                <a className="btn btn-outline-light btn-social" href>
+                  <i className="fab fa-twitter" />
+                </a>
+                <a className="btn btn-outline-light btn-social" href>
+                  <i className="fab fa-facebook-f" />
+                </a>
+                <a className="btn btn-outline-light btn-social" href>
+                  <i className="fab fa-youtube" />
+                </a>
+                <a className="btn btn-outline-light btn-social" href>
+                  <i className="fab fa-linkedin-in" />
+                </a>
+              </div>
 
             </div>
           </div>

@@ -1,7 +1,6 @@
 import React from "react";
 import contact from '../SourceFiles/contact_us.png'
 
-
 const Contact = () => {
   return (
     <div>
@@ -112,13 +111,9 @@ const Contact = () => {
                   <button className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Submit Now</button>
                 </div>
               </div>
-
-
             </div>
           </div>
         </div>
-
-
       </div>
     </div>
   );

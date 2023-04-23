@@ -1,10 +1,8 @@
 import React from "react";
 import girl from '../SourceFiles/girl.jpeg'
 import ahmed from '../SourceFiles/ahmed_one.jpeg'
-import ahmed_two from '../SourceFiles/ahmed_one.jpeg'
 import manager from '../SourceFiles/manager.jpeg'
 import umer from '../SourceFiles/umer.jpeg'
-
 
 const Members = () => {
   return (
@@ -60,7 +58,7 @@ const Members = () => {
                         <img className="img-fluid" src={manager} alt />
                       </div>
                       <div className="m-2 text-center">
-                        <h4 className="mb-0 title-card">SYed Talal</h4>
+                        <h4 className="mb-0 title-card">M. Talal Bukhari</h4>
                         <p>Manager</p>
                       </div>
 
@@ -92,7 +90,7 @@ const Members = () => {
                         <img className="img-fluid" src={girl} alt />
                       </div>
                       <div className="m-2 text-center">
-                        <h4 className="mb-0 title-card">Amina Shair</h4>
+                        <h4 className="mb-0 title-card">Amna Shair</h4>
                         <p>Manager</p>
                       </div>
                     </div>

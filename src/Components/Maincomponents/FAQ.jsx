@@ -1,6 +1,6 @@
 import React from "react";
-import coins from '../SourceFiles/coins.webp'
 import commission from '../SourceFiles/commission.png'
+import coins from '../SourceFiles/coins.webp'
 
 const FAQ = () => {
   return (
