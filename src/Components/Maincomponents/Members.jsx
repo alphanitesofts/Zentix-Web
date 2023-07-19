@@ -1,8 +1,9 @@
 import React from "react";
-import girl from '../SourceFiles/girl.jpeg'
-import ahmed from '../SourceFiles/ahmed_one.jpeg'
 import manager from '../SourceFiles/manager.jpeg'
 import umer from '../SourceFiles/umer.jpeg'
+import Zain from '../SourceFiles/Zain Khan.jpeg'
+import Munatazir from '../SourceFiles/Muntazir.jpeg'
+import Raheel from '../SourceFiles/Raheel AMbasadar.jpeg'
 
 const Members = () => {
   return (
@@ -48,7 +49,49 @@ const Members = () => {
 
                     </div>
                   </div>
+                  <div
+                    className="col-lg-3 col-md-6 wow fadeInUp"
+                    data-wow-delay="0.9s"
+                  >
+                    <div className="team-item p-4 bg-white">
+                      <div className="overflow-hidden mb-4">
+                        <img className="img-fluid" src={Munatazir} alt />
+                      </div>
+                      <div className="m-2 text-center">
+                        <h4 className="mb-0 title-card">Muntazir Khan</h4>
+                        <p>Global Ambassador</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="col-lg-3 col-md-6 wow fadeInUp"
+                    data-wow-delay="0.9s"
+                  >
+                    <div className="team-item p-4 bg-white">
+                      <div className="overflow-hidden mb-4">
+                        <img className="img-fluid" src={Raheel} alt />
+                      </div>
+                      <div className="m-2 text-center">
+                        <h4 className="mb-0 title-card">Raheel</h4>
+                        <p>Ambassador</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="col-lg-3 col-md-6 wow fadeInUp"
+                    data-wow-delay="0.7s"
+                  >
+                    <div className="team-item p-4 bg-white">
+                      <div className="overflow-hidden mb-4">
+                        <img className="img-fluid" src={Zain} alt />
+                      </div>
+                      <div className="m-2 text-center">
+                        <h4 className="mb-0 title-card">Zain Khan</h4>
+                        <p>Global</p>
+                      </div>
 
+                    </div>
+                  </div>
                   <div
                     className="col-lg-3 col-md-6 wow fadeInUp"
                     data-wow-delay="0.5s"
@@ -65,36 +108,12 @@ const Members = () => {
                     </div>
                   </div>
 
-                  <div
-                    className="col-lg-3 col-md-6 wow fadeInUp"
-                    data-wow-delay="0.7s"
-                  >
-                    <div className="team-item p-4 bg-white">
-                      <div className="overflow-hidden mb-4">
-                        <img className="img-fluid" src={ahmed} alt />
-                      </div>
-                      <div className="m-2 text-center">
-                        <h4 className="mb-0 title-card">Ahmed Razzaq</h4>
-                        <p>Manager</p>
-                      </div>
+                 
 
-                    </div>
-                  </div>
+                 
 
-                  <div
-                    className="col-lg-3 col-md-6 wow fadeInUp"
-                    data-wow-delay="0.9s"
-                  >
-                    <div className="team-item p-4 bg-white">
-                      <div className="overflow-hidden mb-4">
-                        <img className="img-fluid" src={girl} alt />
-                      </div>
-                      <div className="m-2 text-center">
-                        <h4 className="mb-0 title-card">Amna Shair</h4>
-                        <p>Manager</p>
-                      </div>
-                    </div>
-                  </div>
+
+                  
 
                 </div>
               </div>

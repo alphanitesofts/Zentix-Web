@@ -3,6 +3,10 @@ import girl from '../SourceFiles/girl.jpeg'
 import ahmed from '../SourceFiles/ahmed_one.jpeg'
 import manager from '../SourceFiles/manager.jpeg'
 import umer from '../SourceFiles/umer.jpeg'
+import Zain from '../SourceFiles/Zain Khan.jpeg'
+import Munatazir from '../SourceFiles/Muntazir.jpeg'
+import Raheel from '../SourceFiles/Raheel AMbasadar.jpeg'
+
 
 const Team = () => {
   return (
@@ -22,8 +26,6 @@ const Team = () => {
                 </p>
               </div>
               <div className="row g-4">
-
-                {/* umer */}
                 <div
                   className="col-lg-3 col-md-6 cardx wow fadeInUp"
                   data-wow-delay="0.3s"
@@ -40,9 +42,6 @@ const Team = () => {
                     </div>
                   </div>
                 </div>
-
-
-                {/* talal */}
                 <div
                   className="col-lg-3 col-md-6 cardx wow fadeInUp"
                   data-wow-delay="0.5s"
@@ -59,7 +58,6 @@ const Team = () => {
                     </div>
                   </div>
                 </div>
-
                 {/* ahmed */}
                 <div
                   className="col-lg-3 col-md-6 cardx wow fadeInUp"
@@ -67,28 +65,26 @@ const Team = () => {
                 >
                   <div className="team-item p-4">
                     <div className="overflow-hidden mb-4">
-                      <img className="img-fluid" src={ahmed} alt />
+                      <img className="img-fluid" src={Zain} alt />
                     </div>
                     <div className="m-2">
-                      <h4 className="mb-0 title-card">Ahmed Razzaq</h4>
+                      <h4 className="mb-0 title-card">Zain Khan</h4>
                       <p> <i className="fa-solid fa-calendar-day" /> 10 april, 2023</p>
                       <p className="mt-2">
                       </p>
                     </div>
                   </div>
                 </div>
-
-                {/* amina */}
                 <div
                   className="col-lg-3 col-md-6 cardx wow fadeInUp"
                   data-wow-delay="0.9s"
                 >
                   <div className="team-item p-4">
                     <div className="overflow-hidden mb-4">
-                      <img className="img-fluid" src={girl} alt />
+                      <img className="img-fluid" src={Raheel} alt />
                     </div>
                     <div className="m-2">
-                      <h4 className="mb-0 title-card">Amna Shair</h4>
+                      <h4 className="mb-0 title-card">Raheel</h4>
                       <p> <i className="fa-solid fa-calendar-day" /> 10 april, 2023</p>
                       <p className="mt-2">
                       </p>
@@ -96,12 +92,22 @@ const Team = () => {
                   </div>
                 </div>
 
-
-
-
-
-
-
+                <div
+                  className="col-lg-3 col-md-6 cardx wow fadeInUp"
+                  data-wow-delay="0.9s"
+                >
+                  <div className="team-item p-4">
+                    <div className="overflow-hidden mb-4">
+                      <img className="img-fluid" src={Munatazir} alt />
+                    </div>
+                    <div className="m-2">
+                      <h4 className="mb-0 title-card">Muntazir Khan</h4>
+                      <p> <i className="fa-solid fa-calendar-day" /> 10 april, 2023</p>
+                      <p className="mt-2">
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

@@ -1,6 +1,5 @@
 import React from "react";
 import backgroundBanner from '../SourceFiles/mainbannerx.jpg'
-import back from '../SourceFiles/back.jpg'
 
 const Hero = () => {
   return (
