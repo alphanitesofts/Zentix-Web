@@ -36,7 +36,7 @@ const Members = () => {
 
                   <div
                     className="col-lg-3 col-md-6 wow fadeInUp"
-                    data-wow-delay="0.3s"
+                    data-wow-delay="0.2s"
                   >
                     <div className="team-item p-4 bg-white">
                       <div className="overflow-hidden mb-4">
@@ -51,7 +51,7 @@ const Members = () => {
                   </div>
                   <div
                     className="col-lg-3 col-md-6 wow fadeInUp"
-                    data-wow-delay="0.9s"
+                    data-wow-delay="0.3s"
                   >
                     <div className="team-item p-4 bg-white">
                       <div className="overflow-hidden mb-4">
@@ -65,7 +65,7 @@ const Members = () => {
                   </div>
                   <div
                     className="col-lg-3 col-md-6 wow fadeInUp"
-                    data-wow-delay="0.9s"
+                    data-wow-delay="0.4s"
                   >
                     <div className="team-item p-4 bg-white">
                       <div className="overflow-hidden mb-4">
@@ -79,7 +79,7 @@ const Members = () => {
                   </div>
                   <div
                     className="col-lg-3 col-md-6 wow fadeInUp"
-                    data-wow-delay="0.7s"
+                    data-wow-delay="0.5s"
                   >
                     <div className="team-item p-4 bg-white">
                       <div className="overflow-hidden mb-4">
@@ -94,7 +94,7 @@ const Members = () => {
                   </div>
                   <div
                     className="col-lg-3 col-md-6 wow fadeInUp"
-                    data-wow-delay="0.5s"
+                    data-wow-delay="0.6s"
                   >
                     <div className="team-item p-4 bg-white">
                       <div className="overflow-hidden mb-4">
@@ -104,17 +104,8 @@ const Members = () => {
                         <h4 className="mb-0 title-card">M. Talal Bukhari</h4>
                         <p>Manager</p>
                       </div>
-
                     </div>
                   </div>
-
-                 
-
-                 
-
-
-                  
-
                 </div>
               </div>
             </div>

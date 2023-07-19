@@ -10,7 +10,7 @@ import MarketingTool from "./Components/Maincomponents/MarketingTool";
 import FAQ from "./Components/Maincomponents/FAQ";
 import Contact from "./Components/Maincomponents/Contact";
 import Shop from "./Components/Maincomponents/Shop";
-import PreLoader from './Components/Body/PreLoader'
+import PreLoader from "./Components/Body/PreLoader";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -18,11 +18,11 @@ function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 5000);
+    }, 3000);
 
     return () => clearTimeout(timer);
   }, []);
-  
+
   return (
     <div>
       {loading ? (
